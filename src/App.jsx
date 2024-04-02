@@ -223,21 +223,28 @@ function App() {
         <input className='input' readOnly type="text" value={value} onChange={(e)=>{setvalue(e.target.value)}} /></div>
         <div className='span-div'>
          { 
-            result && result.map(m=>(
+            value &&  result && result.map(m=>(
               <div className='span' key={m} ref={spanRefs}>{m}</div>
             ))
          }
-
+   
         </div>
-      <div className='parent'>
+      <div >
+        <div className='parent'>
       {
       alphabet.map((a, i)=>(
         <div key={a} className='child'>
         <button  onClick={()=>{setvalue(value ? value + a : a)}}>{a}</button>
         </div>
+        
       )) 
      }
-
+     </div>
+      <div className='sp'>
+         <button onClick={()=>{setvalue("")}}>clear</button>
+         <button onClick={()=>{setvalue(value.slice(0, -1))}}>delete</button>
+         <button onClick={()=>{setvalue(value ? value + " " : " ")}}>space</button>
+      </div>
       </div>
      
   

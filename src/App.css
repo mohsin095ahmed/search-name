@@ -21,14 +21,14 @@
   justify-content: center ;
 }
 .child{
-  height: 50px;
+  height: 40px;
   width: 90px;
   margin: 5px;
 
 }
 
 .child button{
-  height: 50px;
+  height: 40px;
   width: inherit;
   background-color: black;
   color: white;
@@ -51,4 +51,22 @@ h1{
   height: 50px;
   padding: 5px;
   font-size: 20px;
+}
+
+.sp{
+  height: 50px;
+  width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.sp button{
+  
+height: 40px;
+width: 90px;
+background-color: black;
+color: white;
+font-size: 20px;
+font-weight: 6s00;
+
 }
