@@ -1,0 +1,54 @@
+.input{
+  width: 500px;
+  height: 40px;
+  border-radius: 40px;
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+} 
+.input-div{
+  width: 700px;
+  height: 40px;
+  margin: auto;
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin: 10px auto;
+  justify-content: center ;
+}
+.child{
+  height: 50px;
+  width: 90px;
+  margin: 5px;
+
+}
+
+.child button{
+  height: 50px;
+  width: inherit;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+h1{
+  width: 300px;
+  margin: auto;
+}
+
+.span-div{
+  overflow-y: scroll;
+  height: 300px;
+  width: 700px;
+  margin: 10px auto;
+}
+.span{
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+}
